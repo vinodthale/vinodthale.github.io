@@ -2,8 +2,8 @@
 
 # Basic Site Settings
 locale: "en-US"
-site_theme: "default"
-title: "Vinod A. Thale"
+title: "Vinod Thale"
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 title_separator: "-"
 name: &name "Dr. Vinod Ashok Thale"
 description: &description "CFD researcher in interfacial flows, drop impact dynamics, and thermal simulations."
