@@ -181,6 +181,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  pages:
+    output: true
+    permalink: /:path/
 
 # Defaults
 defaults:
@@ -194,12 +197,14 @@ defaults:
       comments: true
       share: true
       related: true
+
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+
   - scope:
       path: ""
       type: teaching
@@ -208,6 +213,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+
   - scope:
       path: ""
       type: publications
@@ -216,6 +222,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+
   - scope:
       path: ""
       type: portfolio
@@ -223,7 +230,8 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
+
   - scope:
       path: ""
       type: talks
