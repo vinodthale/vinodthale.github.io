@@ -1,5 +1,7 @@
 # Welcome to Jekyll!
 
+# Welcome to Jekyll!
+
 # Basic Site Settings
 locale: "en-US"
 title: "Vinod Thale"
@@ -7,9 +9,18 @@ remote_theme: mmistakes/minimal-mistakes@4.24.0
 title_separator: "-"
 name: &name "Dr. Vinod Ashok Thale"
 description: &description "CFD researcher in interfacial flows, drop impact dynamics, and thermal simulations."
-url: "https://thalevinod.github.io"
+url: "https://vinodthale.github.io"
 baseurl: ""  # No subpath
-repository: "thalevinod/thalevinod.github.io"
+repository: "vinodthale/vinodthale.github.io"
+
+# Plugins needed for GitHub Pages + AcademicPages
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
 
 # Site Author - Sidebar Info
 author:
