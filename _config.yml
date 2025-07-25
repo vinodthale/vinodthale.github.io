@@ -28,10 +28,10 @@ plugins:
 # Site Author - Sidebar Info
 author:
   avatar: "profile.jpg"
-  name: "Dr. Vinod A. Thale"
+  name: "Vinod Ashok Thale"
   bio: "Ph.D. in Mechanics | XJTU China"
   location: "IITH, India"
-  employer: "Indian institute of technology Hyderabad"
+  employer: "IIT, Hyderabad"
   email: "thalevinod@gmail.com"
 
   googlescholar: "https://scholar.google.com/citations?user=oZer2BkAAAAJ"
@@ -282,3 +282,11 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+# Set home.md as the landing page
+defaults:
+  - scope:
+      path: "_pages/home.md"
+    values:
+      permalink: /
+      layout: home
+      author_profile: true
