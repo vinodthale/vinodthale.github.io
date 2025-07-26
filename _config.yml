@@ -5,7 +5,7 @@ remote_theme: mmistakes/minimal-mistakes@4.24.0
 title_separator: "-"
 name: &name "Vinod Ashok Thale"
 description: &description "CFD researcher in interfacial flows, drop impact dynamics, and thermal simulations."
-url: "https://github.com/vinodthale"
+url: "https://vinodthale.github.io"
 baseurl: ""
 repository: "vinodthale/vinodthale.github.io"
 
@@ -31,7 +31,7 @@ author:
   email: "thalevinod@gmail.com"
   googlescholar: "https://scholar.google.com/citations?user=oZer2BkAAAAJ"
   researchgate: "https://www.researchgate.net/profile/Vinod-lehui-Thale"
-  github: "thalevinod"
+  github: "vinodthale"
   linkedin: "thalevinod"
   twitter: "thalevinod"
 
