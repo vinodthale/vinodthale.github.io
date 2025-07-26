@@ -1,18 +1,15 @@
-# Welcome to Jekyll!
-
 # Basic Site Settings
 locale: "en-US"
-
 title: "Vinod Thale"
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 title_separator: "-"
 name: &name "Dr. Vinod Ashok Thale"
 description: &description "CFD researcher in interfacial flows, drop impact dynamics, and thermal simulations."
 url: "https://vinodthale.github.io"
-baseurl: ""  # No subpath
+baseurl: ""
 repository: "vinodthale/vinodthale.github.io"
 
-# Plugins needed for GitHub Pages + AcademicPages
+# Plugins
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
@@ -24,8 +21,7 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-
-# Site Author - Sidebar Info
+# Author Sidebar Info
 author:
   avatar: "profile.jpg"
   name: "Vinod Ashok Thale"
@@ -33,21 +29,11 @@ author:
   location: "IITH, India"
   employer: "IIT, Hyderabad"
   email: "thalevinod@gmail.com"
-
   googlescholar: "https://scholar.google.com/citations?user=oZer2BkAAAAJ"
   researchgate: "https://www.researchgate.net/profile/Vinod-lehui-Thale"
   github: "thalevinod"
   linkedin: "thalevinod"
   twitter: "thalevinod"
-
-# Publication Categories
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'
-  conferences:
-    title: 'Conference Papers'
 
 # Site Settings
 teaser: "profile.jpg"
@@ -57,46 +43,17 @@ future: true
 read_more: "disabled"
 talkmap_link: false
 
+# Comments and Feeds
 comments:
   provider: false
-
-staticman:
-  allowedFields: ['name', 'email', 'url', 'message']
-  branch: "gh-pages"
-  commitMessage: "New comment."
-  filename: comment-{@timestamp}
-  format: "yml"
-  moderation: true
-  path: "_data/comments/{options.slug}"
-  requiredFields: ['name', 'email', 'message']
-  transforms:
-    email: "md5"
-  generatedFields:
-    date:
-      type: "date"
-      options:
-        format: "iso8601"
-
 atom_feed:
   hide: false
 
-# SEO
-google_site_verification:
-bing_site_verification:
-alexa_site_verification:
-yandex_site_verification:
-
-# Social Sharing Metadata
-twitter:
-  username: &twitter "thalevinod"
-facebook:
-  username:
-  app_id:
-  publisher:
+# SEO & Social Sharing
 og_image: "profile.jpg"
 og_description: "Vinod A. Thale - Computational Fluid Dynamics | Multiphase Flow | Basilisk CFD"
-
-# Structured Data
+twitter:
+  username: &twitter "thalevinod"
 social:
   type: Person
   name: "Vinod A. Thale"
@@ -107,10 +64,6 @@ social:
     - "https://www.linkedin.com/in/thalevinod"
     - "https://twitter.com/thalevinod"
 
-# Analytics
-analytics:
-  provider: false
-
 # Reading Files
 include:
   - .htaccess
@@ -118,57 +71,37 @@ include:
   - files
 
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
   - .github
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - CHANGELOG
-  - Capfile
-  - config
+  - README
   - Dockerfile
   - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
+  - Gemfile.lock
   - LICENSE
-  - local
-  - log
-  - node_modules
-  - package.json*
-  - Rakefile
-  - README
-  - tmp
   - vendor
+  - tmp
+  - node_modules
+  - "*.sublime-*"
+  - log
+  - local
+  - _site
 
 keep_files:
   - .git
   - .svn
 
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
-lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Markdown Processing
+# Kramdown Options
 kramdown:
   input: GFM
-  hard_wrap: false
   auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
 # Collections
 collections:
@@ -214,8 +147,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
 
   - scope:
       path: ""
@@ -223,8 +154,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
 
   - scope:
       path: ""
@@ -232,8 +161,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
 
   - scope:
       path: ""
@@ -241,52 +168,8 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Output
+# Permalink and Timezone
 permalink: /:categories/:title/
 timezone: Asia/Kolkata
 
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-# Set home.md as the landing page
-defaults:
-  - scope:
-      path: "_pages/home.md"
-    values:
-      permalink: /
-      layout: home
-      author_profile: true
