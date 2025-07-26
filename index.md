@@ -13,10 +13,10 @@ During my PhD at **Xi’an Jiaotong University**, I investigated the complex dyn
 
 This site presents my **research publications**, **simulation visualizations**, **technical skills**, and **curriculum vitae**. My core research directions include:
 
-- Aerodynamic breakup of axisymmetric and asymmetric droplets
-- Jet formation in hollow and compound droplet impacts
-- Force scaling laws and pressure dynamics during drop impact
+- Aerodynamic breakup of axisymmetric and asymmetric droplets  
+- Jet formation in hollow and compound droplet impacts  
+- Force scaling laws and pressure dynamics during drop impact  
 - Drop–bubble interactions and their topological transitions
 
-Feel free to explore my published works, ongoing projects, and contact details. I'm always open to academic collaborations and research discussions.
+Feel free to explore my published works, ongoing projects, and contact details.
 
