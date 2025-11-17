@@ -19,7 +19,10 @@ redirect_from:
 **Advisor:** [Prof. Zhao Jian](https://person.zju.edu.cn/0618129) (College of Biosystems Engineering and Food Science)
 
 **Research Responsibilities:**
-Develop and apply CFD models to simulate and optimize water flow, temperature, and waste dispersion within RAS tanks and filtration units. Analyze hydrodynamics to ensure optimal water quality, fish welfare, and the efficient removal of metabolites and particulate matter. Provide data-driven design recommendations for system components to enhance performance, reduce energy consumption, and support sustainable production. Utilize Basilisk open-source CFD software for grid-adaptive multiphase flow simulations.
+- Develop and apply CFD models to simulate and optimize water flow, temperature, and waste dispersion within RAS tanks and filtration units
+- Analyze hydrodynamics to ensure optimal water quality, fish welfare, and the efficient removal of metabolites and particulate matter
+- Provide data-driven design recommendations for system components to enhance performance, reduce energy consumption, and support sustainable production
+- Utilize Basilisk open-source CFD software for grid-adaptive multiphase flow simulations
 
 ## Research Interests
 
