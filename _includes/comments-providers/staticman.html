@@ -3,8 +3,17 @@
     (function ($) {
     var $comments = $('.js-comments');
 
-    $('#new_comment').submit(function () {
+    $('#new_comment').submit(function (e) {
       var form = this;
+
+      // Validate required fields
+      if (!form.checkValidity()) {
+        e.preventDefault();
+        showAlert('{{ site.data.ui-text[site.locale].comment_error_msg | default: "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again." }}');
+        $('.page__comments-form .js-notice').removeClass('notice--success');
+        $('.page__comments-form .js-notice').addClass('notice--danger');
+        return false;
+      }
 
       $(form).addClass('disabled');
       $('#comment-form-submit').html('<i class="fa fa-spinner fa-spin fa-fw"></i> {{ site.data.ui-text[site.locale].loading_label | default: "Loading..." }}');
