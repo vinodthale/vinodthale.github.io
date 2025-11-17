@@ -15,17 +15,12 @@ During my PhD at Xi’an Jiaotong University, I investigated the dynamics of air
 
 This site features my research publications, simulation visualizations, technical skills, and curriculum vitae. My main research interests include:
 
-Aerodynamic breakup of axisymmetric and asymmetric droplets
-
-Jet formation in hollow and compound droplet impacts
-
-Force scaling laws and pressure dynamics during drop impact
-
-Drop–bubble interactions and related topological transitions
-
-Fish schooling dynamics using IBAMR with adaptive mesh refinement
-
-Bio-inspired flow mechanics and fluid–structure interaction simulations
+- Aerodynamic breakup of axisymmetric and asymmetric droplets
+- Jet formation in hollow and compound droplet impacts
+- Force scaling laws and pressure dynamics during drop impact
+- Drop–bubble interactions and related topological transitions
+- Fish schooling dynamics using IBAMR with adaptive mesh refinement
+- Bio-inspired flow mechanics and fluid–structure interaction simulations
 
 Feel free to explore my published work, current research projects, and contact information. I am always open to academic collaboration and scientific discussions.
 
