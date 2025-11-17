@@ -39,7 +39,14 @@ redirect_from:
 
 ## Employment History
 
-- **2025-04 – 2025-07**  
+- **2025-08 – Present**
+  **Postdoctoral Researcher**, Zhejiang University, Hangzhou, China
+  **Department:** College of Biosystems Engineering and Food Science
+  **Project Title:** Application of CFD in RAS (Recirculating Aquaculture Systems)
+  **Advisor:** [Prof. Zhao Jian](https://person.zju.edu.cn/0618129) (College of Biosystems Engineering and Food Science)
+  **Responsibilities:** Develop and apply CFD models to simulate and optimize water flow, temperature, and waste dispersion within RAS tanks and filtration units. Analyze hydrodynamics to ensure optimal water quality, fish welfare, and the efficient removal of metabolites and particulate matter. Provide data-driven design recommendations for system components to enhance performance, reduce energy consumption, and support sustainable production. Utilize Basilisk open-source CFD software for grid-adaptive multiphase flow simulations.
+
+- **2025-04 – 2025-07**
   **Research Associate**, Indian Institute of Technology Hyderabad, India  
   **Department:** Mechanical and Aerospace Engineering & Chemical Engineering  
   **Project title:** Non-spherical aerodynamic breakup of droplets using DNS  
