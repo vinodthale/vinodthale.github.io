@@ -3,6 +3,7 @@ layout: home
 title: "Vinod Ashok Thale"
 permalink: /
 author_profile: true
+redirect_to: /about/
 ---
 
 I am a computational fluid dynamics (CFD) researcher specializing in **multiphase and interfacial flows**, with a focus on **drop and bubble dynamics**, **aerodynamic breakup**, and **topological transitions** in multiphase systems.
