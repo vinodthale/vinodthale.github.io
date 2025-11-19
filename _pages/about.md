@@ -1,12 +1,13 @@
 ---
 layout: single
-permalink: /about-me/
+permalink: /about/
 title: "About Me"
 author_profile: true
 redirect_from:
-  - /about/
+  - /about-me/
   - /about.html
 ---
+
 ## Current Position
 
 **Postdoctoral Researcher** (August 2025 - Present)
