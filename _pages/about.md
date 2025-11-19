@@ -1,4 +1,5 @@
 ---
+layout: single
 permalink: /about-me/
 title: "About Me"
 author_profile: true
@@ -6,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 ## Current Position
 
 **Postdoctoral Researcher** (August 2025 - Present)
