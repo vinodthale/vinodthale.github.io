@@ -1,11 +1,15 @@
 ---
-permalink: /about/
+layout: single
 title: "About Me"
+permalink: /about/
 author_profile: true
 redirect_from:
   - /about-me/
   - /about.html
+sidebar:
+  nav: "main"
 ---
+
 
 ## Current Position
 
