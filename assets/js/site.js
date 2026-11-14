@@ -58,7 +58,7 @@
       var current = document.documentElement.getAttribute('data-bs-theme');
       var next = current === 'dark' ? 'light' : 'dark';
       document.documentElement.setAttribute('data-bs-theme', next);
-      try { localStorage.setItem('vinod-site-preview-theme', next); } catch (error) {}
+      try { localStorage.setItem('vinod-site-theme', next); } catch (error) {}
       updateIcon();
     });
   }
@@ -239,6 +239,10 @@
   var baseurl = (document.body && document.body.getAttribute('data-baseurl')) || '';
 
   function loadSearchData(callback) {
+    if (window.__LOCAL_PREVIEW_SEARCH_INDEX) {
+      callback(window.__LOCAL_PREVIEW_SEARCH_INDEX);
+      return;
+    }
     if (searchData) { callback(searchData); return; }
     fetch(baseurl + '/assets/search.json')
       .then(function (r) { return r.json(); })
