@@ -25,6 +25,7 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/research-media.css">
   <meta name="theme-color" content="#1a7a6d">
   <link rel="canonical" href="https://vinodthale.github.io/research/">
   <!-- favicon.svg is generated from your initials + accent color (see favicon.svg).
@@ -197,14 +198,12 @@
 </div>
 
 <div class="research-card">
-<div class="research-illustration" aria-hidden="true">
-<span>IBAMR</span>
-<small>IMMERSED BOUNDARIES · ADAPTIVE MESH</small>
-</div>
+<img src="/assets/research-media/fish-3d-poster.png" class="research-thumb visual-fish-thumb" width="960" height="854" loading="lazy" alt="Three-dimensional rendering of a simulated fish" />
 <div class="research-body">
 <h2 class="research-title">Fish hydrodynamics</h2>
 <p class="research-desc">Immersed-boundary simulations of fish swimming and surrounding flows, using adaptive grids and the IBAMR framework.</p>
-<a href="https://github.com/vinodthale/MyExten_IBAMR">Explore the repository &rarr;</a>
+<a href="https://github.com/vinodthale/MyExten_IBAMR">Explore the repository &rarr;</a><br />
+<a href="#fish-schooling">Watch the fish simulations &rarr;</a>
 </div>
 </div>
 
@@ -219,6 +218,43 @@
 </div>
 </div>
 </div>
+
+<section class="visual-showcase" aria-labelledby="simulation-gallery">
+  <p class="visual-kicker">Research in motion</p>
+  <h2 id="simulation-gallery">Simulation gallery</h2>
+  <p class="visual-intro">Selected views of fish swimming, drop impact and evolving fluid interfaces.</p>
+  <figure id="fish-schooling" class="visual-card visual-feature">
+    <video class="visual-fish-3d-video" controls playsinline preload="metadata" poster="/assets/research-media/fish-3d-poster.png" aria-label="Three-dimensional visualization of fish motion">
+      <source src="/assets/research-media/fish-3d-body.mp4" type="video/mp4">
+      Your browser cannot play this video.
+    </video>
+    <figcaption><strong>Fish motion in 3D</strong><span>A rendering reconstructed from IBAMR markers; no odor field is shown.</span></figcaption>
+  </figure>
+  <figure id="four-fish-circle" class="visual-card visual-feature">
+    <video class="visual-fish-2d-video" controls playsinline preload="metadata" poster="/assets/research-media/four-fish-vorticity-2d-poster.png" aria-label="Two-dimensional simulation of four fish arranged around a central region">
+      <source src="/assets/research-media/four-fish-vorticity-2d.mp4" type="video/mp4">
+      Your browser cannot play this video.
+    </video>
+    <figcaption><strong>Four fish around a central region</strong><span>A 2D IBAMR simulation showing vorticity in the odor-enabled case.</span></figcaption>
+  </figure>
+  <figure class="visual-card visual-feature">
+    <video class="visual-wide-video" controls playsinline preload="metadata" poster="/assets/research-media/interface-mesh-poster.png" aria-label="Video showing a drop interface and an adaptive mesh">
+      <source src="/assets/research-media/interface-mesh.mp4" type="video/mp4">
+      Your browser cannot play this video.
+    </video>
+    <figcaption><strong>Drop impact and adaptive mesh</strong><span>Side-by-side views of the simulated interface and computational grid.</span></figcaption>
+  </figure>
+  <div class="visual-grid">
+    <figure class="visual-card">
+      <img src="/assets/research-media/coalescence.png" width="1200" height="800" loading="lazy" alt="Simulated compound-drop interface during coalescence" />
+      <figcaption><strong>Compound-drop coalescence</strong><span>A snapshot of an evolving liquid interface.</span></figcaption>
+    </figure>
+    <figure class="visual-card">
+      <img src="/assets/research-media/liquid-film.png" width="2400" height="1600" loading="lazy" alt="Simulated liquid-film interface with a crown and jets" />
+      <figcaption><strong>Impact on a liquid film</strong><span>A simulation snapshot showing interface evolution.</span></figcaption>
+    </figure>
+  </div>
+</section>
 
 </div>
 

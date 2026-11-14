@@ -25,6 +25,7 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/research-media.css">
   <meta name="theme-color" content="#1a7a6d">
   <link rel="canonical" href="https://vinodthale.github.io/">
   <!-- favicon.svg is generated from your initials + accent color (see favicon.svg).
@@ -188,10 +189,40 @@
 
 <p>I develop and apply numerical methods using the open-source <strong>Basilisk</strong> and <strong>IBAMR</strong> frameworks, combining simulation with theoretical models and physical interpretation.</p>
 
-<div class="banner-frame">
-<img class="preview-simulation" src="/images/compound-drop-jet.png" alt="Basilisk visualization showing a compound-drop interface and the corresponding adaptive mesh" width="1200" height="800" />
-<div class="banner-caption">Compound-drop impact visualization from my existing website: fluid interface and adaptive mesh.</div>
-</div>
+<section class="visual-showcase" aria-labelledby="research-in-motion">
+  <p class="visual-kicker">Research in motion</p>
+  <h2 id="research-in-motion">Visualizing fluid dynamics</h2>
+  <p class="visual-intro">A closer look at simulated fish, drops and changing fluid interfaces.</p>
+  <figure class="visual-card visual-feature">
+    <video controls playsinline preload="metadata" poster="/assets/research-media/drop-impact-poster.png" aria-label="Video of a simulated drop impacting a spherical target">
+      <source src="/assets/research-media/drop-impact.mp4" type="video/mp4">
+      Your browser cannot play this video.
+    </video>
+    <figcaption>
+      <strong>Drop impact on a spherical target</strong>
+      <span>A 3D rendering of an axisymmetric Basilisk simulation.</span>
+    </figcaption>
+  </figure>
+  <div class="visual-grid">
+    <figure class="visual-card">
+      <img src="/assets/research-media/coalescence.png" width="1200" height="800" loading="lazy" alt="Simulated compound-drop interface during coalescence" />
+      <figcaption><strong>Compound-drop coalescence</strong><span>A snapshot of an evolving liquid interface.</span></figcaption>
+    </figure>
+    <figure class="visual-card">
+      <img src="/assets/research-media/liquid-film.png" width="2400" height="1600" loading="lazy" alt="Simulated liquid-film interface with a crown and jets" />
+      <figcaption><strong>Impact on a liquid film</strong><span>A simulation snapshot showing interface evolution.</span></figcaption>
+    </figure>
+  </div>
+  <figure class="visual-card visual-feature visual-fish">
+    <video class="visual-fish-3d-video" controls playsinline preload="metadata" poster="/assets/research-media/fish-3d-poster.png" aria-label="Three-dimensional visualization of fish motion">
+      <source src="/assets/research-media/fish-3d-body.mp4" type="video/mp4">
+      Your browser cannot play this video.
+    </video>
+    <figcaption><strong>Fish motion in 3D</strong><span>A rendering reconstructed from IBAMR markers; no odor field is shown.</span></figcaption>
+  </figure>
+  <p class="visual-more"><a href="/research/#four-fish-circle">Watch the four-fish simulation &rarr;</a></p>
+  <p class="visual-more"><a href="/research/#simulation-gallery">Explore the simulation gallery &rarr;</a></p>
+</section>
 
 <h2 id="selected-publications">Selected publications</h2>
 
