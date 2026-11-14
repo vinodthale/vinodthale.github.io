@@ -1,4 +1,4 @@
 url: "https://vinodthale.github.io"
 baseurl: ""
 include: [".nojekyll"]
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "talkmap.ipynb"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "talkmap.ipynb", "vendor", ".bundle"]
